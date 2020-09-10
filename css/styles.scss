@@ -1,0 +1,41 @@
+// variables 
+$mainBurgandy: #bb2142;
+$mainGreen: #33B75C;
+
+// settings 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, $mainBurgandy, black);
+    background-repeat: no-repeat;
+    color: white;
+}
+
+// player info
+@import 'partials/info';
+
+// player playlist
+@import 'partials/playlist';
+
+// responsive
+@media (min-width: 700px) {
+    .app__player {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .app__player {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+}

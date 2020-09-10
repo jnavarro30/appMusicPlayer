@@ -1,0 +1,26 @@
+.player__item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    * {
+        padding: 0.2rem;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.3);
+    }
+}
+
+.item__left {
+    display: flex;
+    align-items: baseline;
+    margin-left: 0.5rem;
+}
+
+.item__right {
+    justify-self: end;
+    margin-right: 0.5rem;
+}
+

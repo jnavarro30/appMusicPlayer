@@ -1,0 +1,26 @@
+.player__info {
+    text-align: center;
+
+    * {
+        margin: 0.5rem;
+    }
+
+    .player__image {
+        border: 3px solid black;
+        width: 90%;
+    }
+
+    .player__title {
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .player__button {
+        background: $mainGreen;
+        color: white;
+        border-radius: 15px;
+        padding: 0.6rem 1.6rem;
+        border: 2px solid black;
+        outline: none;
+    }
+}
