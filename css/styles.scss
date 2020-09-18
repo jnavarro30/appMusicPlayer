@@ -19,11 +19,23 @@ body {
     color: white;
 }
 
+// player progress
+@import 'partials/progress';
+
 // player info
 @import 'partials/info';
 
 // player playlist
 @import 'partials/playlist';
+
+// classes 
+.selected__icon {
+    color: $mainGreen;
+}
+
+.selected__item {
+    background: rgba(0, 0, 0, 0.3);
+}
 
 // responsive
 @media (min-width: 700px) {

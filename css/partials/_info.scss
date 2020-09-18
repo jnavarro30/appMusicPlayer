@@ -22,5 +22,9 @@
         padding: 0.6rem 1.6rem;
         border: 2px solid black;
         outline: none;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

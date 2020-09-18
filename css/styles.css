@@ -16,6 +16,17 @@ body {
   color: white;
 }
 
+.player__progress {
+  height: 0.4rem;
+  background: black;
+}
+
+.player__bar {
+  height: 100%;
+  background: #33B75C;
+  width: 0%;
+}
+
 .player__info {
   text-align: center;
 }
@@ -43,12 +54,16 @@ body {
   outline: none;
 }
 
+.player__info .player__button:hover {
+  cursor: pointer;
+}
+
 .player__item {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  -ms-grid-columns: 4fr 1fr;
+      grid-template-columns: 4fr 1fr;
 }
 
 .player__item * {
@@ -74,6 +89,14 @@ body {
   -ms-grid-column-align: end;
       justify-self: end;
   margin-right: 0.5rem;
+}
+
+.selected__icon {
+  color: #33B75C;
+}
+
+.selected__item {
+  background: rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 700px) {

@@ -1,0 +1,10 @@
+.player__progress {
+    height: 0.4rem;
+    background: black;
+}
+
+.player__bar {
+    height: 100%;
+    background: $mainGreen;
+    width: 0%;
+}
