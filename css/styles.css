@@ -105,6 +105,16 @@ body {
     display: grid;
     -ms-grid-columns: 1fr 2fr;
         grid-template-columns: 1fr 2fr;
+    font-size: 1.4rem;
+  }
+  .player__button {
+    font-size: 1.4rem;
+  }
+  .player__image {
+    height: 25%;
+  }
+  .player__item * {
+    padding: 0.4rem;
   }
 }
 
